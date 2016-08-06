@@ -8,6 +8,7 @@ import pyb
 import buttons
 import ugfx
 import dialogs
+from imu import IMU
 from database import database_get
 
 MAIN_LOOP_POLL_TIME = 300
