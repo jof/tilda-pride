@@ -72,7 +72,7 @@ def pick_your_pride():
             ]
     choice = dialogs.prompt_option(flags)
     global FLAG_CHOICE
-    filepath = "/flash/apps/tilda-pride/{}".format(choice['file'])
+    filepath = "/flash/apps/jof~tilda-pride/{}".format(choice['file'])
     choice['file'] = filepath
     FLAG_CHOICE = choice
 
